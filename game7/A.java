@@ -18,5 +18,6 @@ public class A extends Actor
             setRotation(-90);
             move(1);
         }
+        
     }    
 }
