@@ -15,9 +15,16 @@ public class A extends Actor
     
     public void act() 
     {
+
         if(Greenfoot.isKeyDown("a")) setLocation(getX()+3, getY());
         if(Greenfoot.isKeyDown("d")) setLocation(getX()-3, getY());
         if(Greenfoot.isKeyDown("s")) setLocation(getX(), getY()+3);
         if(Greenfoot.isKeyDown("w")) setLocation(getX(), getY()-3);
     }
+        if( Greenfoot.isKeyDown( "up" ) ){
+            setRotation(-90);
+            move(1);
+        }
+        
+    }    
 }
