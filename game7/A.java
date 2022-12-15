@@ -21,10 +21,4 @@ public class A extends Actor
         if(Greenfoot.isKeyDown("s")) setLocation(getX(), getY()+3);
         if(Greenfoot.isKeyDown("w")) setLocation(getX(), getY()-3);
     }
-        if( Greenfoot.isKeyDown( "up" ) ){
-            setRotation(-90);
-            move(1);
-        }
-        
-    }    
 }

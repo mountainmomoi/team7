@@ -3,20 +3,12 @@ class.A.image=man01.png
 class.B.image=cactus.png
 class.C.image=pig.png
 class.D.image=turtle.png
-<<<<<<< HEAD
 class.MyWorld.image=life194.png
-=======
-class.MyWorld.image=residential_street_3.jpg
->>>>>>> 2a5717dca1e888fb1922da2ce5f4e33832499046
 editor.fx.0.height=739
 editor.fx.0.width=816
-editor.fx.0.x=552
-editor.fx.0.y=100
-<<<<<<< HEAD
+editor.fx.0.x=677
+editor.fx.0.y=123
 height=905
-=======
-height=585
->>>>>>> 2a5717dca1e888fb1922da2ce5f4e33832499046
 package.numDependencies=0
 package.numTargets=5
 project.charset=UTF-8
@@ -71,10 +63,5 @@ target5.y=0
 version=3.0.0
 width=1525
 world.lastInstantiated=MyWorld
-<<<<<<< HEAD
-xPosition=300
-yPosition=99
-=======
-xPosition=4
-yPosition=277
->>>>>>> 2a5717dca1e888fb1922da2ce5f4e33832499046
+xPosition=125
+yPosition=119
