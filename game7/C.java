@@ -20,25 +20,45 @@ public class C extends Actor
         {
             Greenfoot.stop();
         }
-
-        switch( (int)(Math.random() * 4))
+        
+        switch( (int)(Math.random() * 8))
         {
             case 0:
                 setRotation(0);
-                move(40);
+                move(20);
                 break;
             case 1:
-                setRotation(90);
-                move(40);
+                setRotation(45);
+                move(20);
                 break;
             case 2:
-                setRotation(180);
-                move(40);
+                setRotation(90);
+                move(20);
                 break;
             case 3:
-                setRotation(270);
-                move(40);
+                setRotation(135);
+                move(20);
                 break;
+            case 4:
+                setRotation(180);
+                move(20);
+                break;
+            case 5:
+                setRotation(225);
+                move(20);
+                break;
+            case 6:
+                setRotation(270);
+                move(20);
+                break;
+            case 7:
+                setRotation(315);
+                move(20);
+                break;    
+            case 8:
+                setRotation(360);
+                move(20);
+                break;        
         }
     }
 }
