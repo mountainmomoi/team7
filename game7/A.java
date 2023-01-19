@@ -29,6 +29,7 @@ public class A extends Actor
                 wait = 30;
             }
     }
+<<<<<<< HEAD
         
     private int charWidth = getImage().getWidth()-45;
 
@@ -47,3 +48,6 @@ public class A extends Actor
     }    
 }    
 
+=======
+}
+>>>>>>> 861ca6efa9de4b1fc5892bc42f3dff4b7bda8837
