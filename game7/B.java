@@ -16,6 +16,7 @@ public class B extends Actor
     public void act() 
     {
         // Add your action code here.
+<<<<<<< HEAD
             Actor actor = getOneIntersectingObject(A.class);
             if(actor != null){
                 Greenfoot.stop();
@@ -40,4 +41,11 @@ public class B extends Actor
                     break;
             }
     }
+=======
+        if( Greenfoot.isKeyDown( "right" ) ){
+        setRotation(0);
+        move(1);
+        }
+    }    
+>>>>>>> 0f71c0c4fc485e258789a49057ccf7f9f044f1f4
 }
